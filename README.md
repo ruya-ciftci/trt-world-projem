@@ -1,8 +1,48 @@
-# React + Vite
+Bu proje, React ile geliştirdiğim bir haber sitesi uygulamasıdır. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 
+Gereksinimler
+Node.js 
+npm 
+JSON Server
 
-Currently, two official plugins are available:
+Bağımlılıkları yükleyin:
+npm install  
+db.json dosyası içinde veriler yüklü.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Çalıştırma
+React uygulamasını başlatın:
+npm run dev  
+JSON Server'ı çalıştırın:
+json-server --watch db.json  
+
+Tarayıcıdan uygulamayı açın:
+React uygulaması için:http://localhost:5173
+JSON Server için: http://localhost:3000
+📂 Proje Yapısı
+├── src/  
+│   ├── components/  
+│   │   ├── Header.js  
+│   │   ├── Footer.js  
+│   │   └── ....
+│   ├── pages/  
+│   │   ├── Home.js  
+│   │   └── Detay.js  
+│   ├── App.js  
+│   ├── index.js  
+├── public/  
+├── db.json  
+├── package.json  
+├── README.md  
+└── ... (diğer dosyalar)  
+
+Özellikler
+Haber listeleme
+JSON Server entegrasyonu
+Responsive tasarım
+
+Kullanılan Teknolojiler
+React
+JSON Server
+Tailwind CSS
